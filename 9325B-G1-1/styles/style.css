@@ -1,0 +1,450 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(242, 242, 242);
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    box-shadow: grey 0px 0px 20px;
+}
+
+section h2 {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    padding: 0 5%;
+}
+
+.default {
+    overflow: auto;
+    min-height: 500px;
+    background-color: white;
+}
+
+.highlight {
+    color: rgb(0, 138, 230);
+}
+
+header {
+    font-family: monospace;
+    padding: 10px;
+    min-height: 55px;
+    width: 90%;
+    margin: auto;
+}
+
+#heading {
+    margin-top: 10px;
+    float: left;
+}
+
+header img {
+    float: left;
+}
+
+nav {
+    font-size: 20px;
+    margin-top: 15px;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+.current a {
+    color: rgb(0, 138, 230);
+}
+
+/*Advocacies Dropdown*/
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    padding: 10px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Contents Below*/
+
+#home-content1 {
+    overflow: auto;
+    clear: both;
+    min-height: 600px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    background: url("./BG.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#home-content1 p {
+    margin: auto;
+    margin-top: 200px;
+    padding: 20px;
+    width: 80%;
+    border-radius: 100px;
+    background-color: rgba(13, 13, 13, .7);
+}
+
+#home-content2 {
+    overflow: auto;
+    min-height: 500px;
+    background: url("./BG2.png") no-repeat center;
+    background-size: cover;
+
+}
+
+.content {
+    margin: 5% auto;
+    padding: 1%;
+    box-shadow: grey 0px 0px 15px;
+    color: white;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.85098);
+    overflow: auto;
+}
+
+.f-left{
+    float: left;
+}
+
+.f-right{
+    float: right;
+}
+
+article.f-left{
+    float: none;
+}
+
+article.f-right{
+    float: none;
+}
+
+.content img {
+    width: 49%;
+    height: auto;
+}
+
+.content div {
+    width: 49%;
+}
+
+.content h3 {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(51, 153, 255);
+}
+
+.content p {
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.content table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.content table {
+    width: 49%;
+    margin-top: 2%;
+    float: left;
+}
+
+.content th {
+    color: rgb(51, 153, 255);
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    min-height: 45px;
+    box-shadow: grey 0px 5px 10px 2px;
+    background-color: rgb(0, 122, 204);
+}
+
+/*Gallery*/
+
+#gallery-heading {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 138, 230);
+}
+
+#main-gallery {
+    padding: 40px;
+    background-image: url(./BG3.jpg);
+    overflow: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.gallery {
+    border: 1px solid #ccc;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery p {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.gal-container {
+    padding: 0 6px;
+    float: left;
+    width: 33.3%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*About*/
+
+#about {
+    background-image: url(./BG3.jpg);
+    overflow: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+#about h1 {
+    padding: 3%;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 138, 230, 0.90);
+}
+
+#history {
+    float: left;
+    margin: 30px auto;
+    box-shadow: grey 0px 0px 15px;
+    color: white;
+    width: 75%;
+    min-height: 600px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h3#about-head {
+    text-align: center;
+    padding: 2%;
+    font-size: 25px;
+    background-color: rgba(0, 138, 230, 0.4);
+}
+
+#history p {
+    padding: 3%;
+}
+
+.sidebar {
+    float: right;
+    color: white;
+    width: 24%;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.sidebar h3 {
+    padding: 3%;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgba(0, 138, 230, 0.4);
+}
+
+.sidebar p {
+    padding: 10px;
+}
+
+.org-con {
+    background-color: white;
+}
+
+.org-con h3 {
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    color: white;
+    background-color: skyblue;
+}
+
+.org-con p {
+	text-align: center;
+    font-size: 1.05em;
+    padding: 20px;
+}
+
+#org-chart {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+}
+
+/*
+For mobile view
+*/
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+
+    }
+
+    #heading {
+        float: none;
+    }
+
+    nav {
+        float: none;
+        width: 100%;
+        font-size: 18px;
+        margin: 10px 0 10px 0;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    #home-content1 {
+        min-height: 400px;
+    }
+
+    #home-content1 p {
+        margin: auto;
+        margin-top: 150px;
+        padding: 20px;
+        width: 80%;
+        border-radius: 100px;
+        background-color: rgba(13, 13, 13, .7);
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    f-left,
+    f-right {
+        float: none;
+    }
+
+    .content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .content div {
+        width: 100%;
+    }
+
+    .content table {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .gal-container {
+        padding: 0 6px;
+        float: left;
+        width: 50%;
+    }
+
+    #history {
+        width: 100%;
+        min-height: 410px;
+    }
+
+    .sidebar {
+        width: 33%;
+        margin-bottom: 10px;
+        min-height: 210px;
+    }
+
+
+}
+
+@media (min-width: 1600px) {
+    * {
+        font-size: 1.07em;
+    }
+
+    .content {
+        width: 95%;
+        float: none;
+        margin: 5% auto;
+    }
+
+    #home-content1 {
+        min-height: 900px;
+    }
+
+    #home-content1 {
+        padding: 200px;
+        font-size: 2.2em;
+    }
+    
+    #history {
+        min-height: 1100px;
+    }
+}
