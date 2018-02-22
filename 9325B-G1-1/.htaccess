@@ -1,2 +1,11 @@
+# HTID:2909427: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+php_value upload_max_filesize 104857600
+php_value post_max_size 104857600
+php_value max_execution_time 1000
+php_value max_input_time 1000
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:2909427:
+
+AddHandler application/x-httpd-php .html .inc .php
 RewriteEngine On
-RewriteRule ^images/No\ Parking.JPG images/No\ Parking.jpg
+RewriteRule ^images/No\ Parking.JPG  images/No\ Parking.jpg
