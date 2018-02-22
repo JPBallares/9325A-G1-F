@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^images/No\ Parking.JPG images/No\ Parking.jpg
